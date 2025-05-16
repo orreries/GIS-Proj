@@ -10,7 +10,7 @@ library(patchwork)
 library(tibble)
 
 #call data using Census API
-census_api_key("7dee506a92455ee99e660915f549f182dead056b", install = TRUE, overwrite = TRUE)
+census_api_key("Your_APIKey_here", install = TRUE, overwrite = TRUE)
 
 edu_data <- get_acs(
   geography = "county",
